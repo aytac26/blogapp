@@ -1,0 +1,218 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Foodieland - Recipes</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  
+ <link rel="stylesheet" href="{% static 'app/style.css' %}">
+    </head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="logo">Foodieland</div>
+      <nav class="nav">
+        <a href="#">Recipes</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <a href="#">About us</a>
+      </nav>
+    </header>
+
+    <!-- Categories -->
+    <div class="categories">
+      <div class="category">
+        <img src="https://centralbaku.monyo.az/v4/uploads2/uploads2025-02/a_200_202502081328521861507253.jpg" alt="breakfast">
+        <span>Breakfast</span>
+      </div>
+      <div class="category">
+        <img src="https://images.everydayhealth.com/images/diet-nutrition/what-is-a-vegan-diet-benefits-food-list-beginners-guide-alt-1440x810.jpg?sfvrsn=1d260c85_5" alt="vegan">
+        <span>Vegan</span>
+      </div>
+      <div class="category">
+        <img src="https://www.safefood.net/getmedia/94101697-3c3f-4fe1-8ae8-5b595d3814ba/medium-rare-steak.jpg?width=2000&height=1333&ext=.jpg" alt="meat">
+        <span>Meat</span>
+      </div>
+      <div class="category">
+        <img src="https://i0.wp.com/www.thelittleblogofvegan.com/wp-content/uploads/2025/01/No-Bake-Chocolate-Covered-Strawberries-Cheesecake.jpg?fit=1365%2C2048&ssl=1" alt="dessert">
+        <span>Dessert</span>
+      </div>
+      <div class="category">
+        <img src="https://monyo.az/v4/uploads2/uploads2025-09/a_1722_202509151213271072584258.jpg" alt="placeholder image" alt="lunch">
+        <span>Lunch</span>
+      </div>
+
+      <a class="view-all" href="#">View All Categories</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <h1>Simple and tasty recipes</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim.</p>
+    </section>
+
+    <!-- Cards grid -->
+    <section class="cards">
+
+      <!-- Card 1 -->
+      <article class="card">
+        <div class="media">
+          <img src="https://www.burgerfi.com/wp-content/uploads/2025/02/delicious-beef-burger-scaled.webp" alt="burger">
+          <div class="fav">❤</div>
+        </div>
+        <div class="content">
+          <h3>Big and Juicy Wagyu Beef Cheeseburger</h3>
+          <div class="meta">
+            <span>⏱ 30 Minutes</span>
+            <span>🍔 Snack</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card">
+        <div class="media">
+          <img src="https://www.slenderkitchen.com/sites/default/files/styles/data_share/public/recipe_images/spicy-salmon.jpg" alt="salmon">
+          <div class="fav">❤</div>
+        </div>
+        <div class="content">
+          <h3>Fresh Lime Roasted Salmon with Ginger Sauce</h3>
+          <div class="meta">
+            <span>⏱ 30 Minutes</span>
+            <span>🐟 Fish</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="card">
+        <div class="media">
+          <img src="https://www.bostongirlbakes.com/wp-content/uploads/2014/03/Strawberry-Pancakes-High-Res-107-683x1024.webp" alt="pancakes">
+          <div class="fav">❤</div>
+        </div>
+        <div class="content">
+          <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+          <div class="meta">
+            <span>⏱ 30 Minutes</span>
+            <span>🥞 Breakfast</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="card">
+        <div class="media">
+          <img src="https://www.simplyrecipes.com/thmb/eb7SMVJL0kaypejeGZVE413t2Mo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SIMPLY-RECIPES-Classic-Potato-Salad-LEAD-2-Horizontal-3dc58bbc058844cbb1e9242e8b1515a7.jpg" alt="salad">
+          <div class="fav">❤</div>
+        </div>
+        <div class="content">
+          <h3>Fresh and Healthy Mixed Mayonnaise Salad</h3>
+          <div class="meta">
+            <span>⏱ 30 Minutes</span>
+            <span>🥗 Healthy</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 5 -->
+      <article class="card">
+        <div class="media">
+          <img src="https://realhousemoms.com/wp-content/uploads/Cheesy-Chicken-Meatballs-Easy-Appetizer-Recipe-IG.jpg" alt="meatballs">
+          <div class="fav">❤</div>
+        </div>
+        <div class="content">
+          <h3>Chicken Meatballs with Cream Cheese</h3>
+          <div class="meta">
+            <span>⏱ 30 Minutes</span>
+            <span>🍗 Meat</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Promo wide block -->
+      <div class="wide">
+        <div>
+          <div style="font-size:18px; font-weight:700; margin: bottom 9px;">Don't forget to eat healthy food</div>
+          <div style="color:rebeccapurple; font-size:14px;">Daily fresh recipes and tips</div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <article class="card">
+        <div class="media">
+          <img src="https://rms-media-prod.generalmills.com/d5779da3-4ff6-445f-bffa-8be960da0a0e.jpg" alt="pancake-fruity">
+          <div class="fav">❤</div>
+        </div>
+        <div class="content">
+          <h3>Fruity Pancake with Orange & Blueberry</h3>
+          <div class="meta">
+            <span>⏱ 30 Minutes</span>
+            <span>🍰 Sweet</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 7 -->
+      <article class="card">
+        <div class="media">
+          <img src="https://www.asaucykitchen.com/wp-content/uploads/2019/05/One-Pot-Chicken-and-Rice-2-2.jpg" alt="chicken-onepot">
+          <div class="fav">❤</div>
+        </div>
+        <div class="content">
+          <h3>The Best Easy One Pot Chicken and Rice</h3>
+          <div class="meta">
+            <span>⏱ 30 Minutes</span>
+            <span>🍽 Snack</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 8 -->
+      <article class="card">
+        <div class="media">
+          <img src="https://www.theburntbuttertable.com/wp-content/uploads/2025/09/Chicken-and-bacon-pasta-1.jpg" alt="pasta">
+          <div class="fav">❤</div>
+        </div>
+        <div class="content">
+          <h3>The Creamiest Creamy Chicken and Bacon Pasta</h3>
+          <div class="meta">
+            <span>⏱ 30 Minutes</span>
+            <span>🍝 Noodles</span>
+          </div>
+        </div>
+      </article>
+
+    </section>
+ 
+    <!-- Subscribe -->
+    <section class="subscribe" aria-label="subscribe section">
+      <div class="left">
+        <h2>Deliciousness to your inbox</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim.</p>
+        <form class="form" onsubmit="event.preventDefault(); alert('Subscribed!');">
+          <input type="email" placeholder="Your email address..." required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="right">
+        <img src="https://images.unsplash.com/photo-1546069901-eacef0df6022?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=14" alt="salad">
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div style="font-weight:700;">Foodieland</div>
+    <div style="display:flex; gap:18px; font-size:14px;">
+      <div>© 2025 Flowbase. Powered by Aytac 🎀</div>
+    </div>
+  </footer>
+
+</body>
+</html>
